@@ -1,0 +1,19 @@
+package ooplabq4;
+
+/**
+ *
+ * @author 114739
+ */
+public class OOPLABQ4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int Fahrenheit = 212;
+        int Celsius =(Fahrenheit - 32) * 5/9;
+        System.out.println("212 Fahrenheit is equal to " + Celsius +" celcius");
+        
+    }
+    
+}

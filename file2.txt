@@ -1,0 +1,25 @@
+public class LABOOPQ2 {
+    
+    public static void main (String[] args){
+     int x = 125;
+     int y = 24;
+     
+     int sum= x + y;
+    System.out.println(x + " + " +y +" = "+ sum);
+
+    int subtract= x - y;
+    System.out.println(x + " - " + y +"="+ subtract);
+
+    int multiply = x * y;
+    System.out.println(x + "*" + y + "="+ multiply);
+
+    int divide = x / y;
+    System.out.println(x + "/" + y + "="+ divide);
+    
+     int modulus = x % y;
+    System.out.println(x + "mod" + y + "="+ modulus);
+
+
+  }
+ 
+}

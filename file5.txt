@@ -1,0 +1,41 @@
+package ooplabq5;
+
+/**
+ *
+ * @author 114739
+ */
+public class OOPLABQ5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x = 25;
+     int y = 5;
+     
+     int sum= x + y;
+    System.out.println(" Sum of two integers: "+ sum);
+
+    int subtract= x - y;
+     System.out.println("Difference of two integers: "+ subtract);
+
+    int multiply = x * y;
+     System.out.println(" Product of two integers: "+ multiply);
+
+    int average = sum / 2 ;
+    System.out.println(" Average of two integers: "+ average);
+    
+     int distance = x - y;
+     System.out.println(" Distance of two integers: "+ distance);
+     
+     if(x < y ){
+          System.out.println(" Minimum integer is " + x);
+           System.out.println(" Maximum integer is " + y);
+     }else{
+         System.out.println(" Maximum integer is " + x);
+           System.out.println(" Minimum integer is " + y);
+     }
+
+  }
+ 
+}
